@@ -1,0 +1,624 @@
+!SESSION 2025-06-06 00:35:01.378 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.tool.launcher.analytics.ui 4 0 2025-06-06 00:35:05.201
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.analytics.ui [92]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.1.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.analytics.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.local.ui 4 0 2025-06-06 00:35:05.208
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.local.ui [93]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.local.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.salesforce.ui 4 0 2025-06-06 00:35:05.209
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.salesforce.ui [94]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.salesforce.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.ui 4 0 2025-06-06 00:35:05.213
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.ui [95]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.product 4 0 2025-06-06 00:35:05.214
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.product [96]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.product"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.ui 4 0 2025-06-06 00:35:05.215
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.ui [97]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2025-06-06 00:35:08.718
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2025-06-06 00:36:53.004
+!MESSAGE Jetty listening on: http://127.0.0.1:59570/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2025-06-06 00:36:54.461
+!MESSAGE ContentServer started at: 127.0.0.1, 59570
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2025-06-06 00:36:54.610
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2025-06-06 00:36:59.424
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2025-06-06 00:37:01.360
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@3421132b (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/data-sheets/siwx917-ncp-datasheet.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2025-06-06 00:37:43.894
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2025-06-06 00:37:58.993
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@6cd47dc7 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/data-sheets/siwx917-ncp-datasheet.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.useraccounts.core 4 0 2025-06-06 00:38:08.604
+!MESSAGE Error in connection authentication or validation
+!STACK 0
+com.sforce.ws.SoapFaultException: StudioService: no access allowed to this class.
+	at com.sforce.ws.transport.SoapConnection.createException(SoapConnection.java:212)
+	at com.sforce.ws.transport.SoapConnection.receive(SoapConnection.java:156)
+	at com.sforce.ws.transport.SoapConnection.send(SoapConnection.java:99)
+	at com.sforce.soap.StudioService.SoapConnection.isValidated(SoapConnection.java:177)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.isValidated(SilabsSFAuthService.java:1019)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.createConnection(SilabsSFAuthService.java:257)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.getSecuredUpdateRepos(SilabsSFAuthService.java:358)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SecureSFContentLocator.getAssetManifests(SecureSFContentLocator.java:38)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SecureSFContentLocator.getAvailableSecuredContent(SecureSFContentLocator.java:28)
+	at com.silabs.ss.platform.api.security.core.SecurityHelper.lambda$0(SecurityHelper.java:35)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
+	at com.silabs.ss.platform.api.security.core.SecurityHelper.getAvailableSecuredContent(SecurityHelper.java:37)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.getAvailableSecuredContent(AssetService.java:1158)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.getSecuredAssetManifestNames(AssetService.java:1162)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.fetchAssetsFiles(AssetService.java:1143)
+	at com.silabs.ss.platform.internal.api.content.core.asset.AssetService.checkForUpdates(AssetService.java:540)
+	at com.silabs.ss.platform.api.content.core.metadata.MetadataUtils$1.run(MetadataUtils.java:72)
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2025-06-06 00:38:17.732
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2025-06-06 00:38:29.915
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.platform.useraccounts.core 4 0 2025-06-06 00:38:35.435
+!MESSAGE Error in connection authentication or validation
+!STACK 0
+com.sforce.ws.SoapFaultException: StudioService: no access allowed to this class.
+	at com.sforce.ws.transport.SoapConnection.createException(SoapConnection.java:212)
+	at com.sforce.ws.transport.SoapConnection.receive(SoapConnection.java:156)
+	at com.sforce.ws.transport.SoapConnection.send(SoapConnection.java:99)
+	at com.sforce.soap.StudioService.SoapConnection.isValidated(SoapConnection.java:177)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.isValidated(SilabsSFAuthService.java:1019)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.createConnection(SilabsSFAuthService.java:257)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.getSecuredUpdateRepos(SilabsSFAuthService.java:358)
+	at com.silabs.ss.platform.internal.useraccounts.core.salesforce.impl.SilabsSFAuthService.getSecuredUpdateRepos(SilabsSFAuthService.java:339)
+	at com.silabs.ss.tool.internal.api.installer.core.SLSP2UpdateSites.fetchSFSecureModeUpdateSites(SLSP2UpdateSites.java:346)
+	at com.silabs.ss.tool.internal.api.installer.core.SLSP2UpdateSites.ensureStudioRepos(SLSP2UpdateSites.java:255)
+	at com.silabs.ss.tool.internal.api.installer.core.SLSP2UpdateSites.ensureStudioReposLoaded(SLSP2UpdateSites.java:619)
+	at com.silabs.ss.tool.internal.api.installer.core.InstallerUtils.ensurePackagesFetched(InstallerUtils.java:1909)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.updatePackageMetadata(UpdateManager.java:236)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager.ensureUpdatesFetched(UpdateManager.java:306)
+	at com.silabs.ss.tool.internal.installer.core.updates.UpdateManager$1.run(UpdateManager.java:189)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2025-06-06 00:39:25.198
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@23f7dc6b (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/data-sheets/siwx917-ncp-datasheet.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2025-06-06 00:40:32.277
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2025-06-06 00:40:32.355
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2025-06-06 00:58:16.728
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: false
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2025-06-06 00:58:19.550
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.support.browser.html 4 0 2025-06-06 00:58:19.553
+!MESSAGE Problem with frameLoaded method
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at com.silabs.ss.support.browser.api.html.jxbrowser.JxBrowserService.lambda$19(JxBrowserService.java:259)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2025-06-06 00:58:19.909
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.support.browser.html 4 0 2025-06-06 00:58:19.912
+!MESSAGE Problem with frameLoaded method
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at com.silabs.ss.support.browser.api.html.jxbrowser.JxBrowserService.lambda$19(JxBrowserService.java:259)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2025-06-06 00:58:20.486
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.support.browser.html 4 0 2025-06-06 00:58:20.487
+!MESSAGE Problem with frameLoaded method
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at com.silabs.ss.support.browser.api.html.jxbrowser.JxBrowserService.lambda$19(JxBrowserService.java:259)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2025-06-06 00:58:20.551
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.support.browser.html 4 0 2025-06-06 00:58:20.552
+!MESSAGE Problem with frameLoaded method
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at com.silabs.ss.support.browser.api.html.jxbrowser.JxBrowserService.lambda$19(JxBrowserService.java:259)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2025-06-06 00:58:21.576
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.support.browser.html 4 0 2025-06-06 00:58:21.577
+!MESSAGE Problem with frameLoaded method
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at com.silabs.ss.support.browser.api.html.jxbrowser.JxBrowserService.lambda$19(JxBrowserService.java:259)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2025-06-06 00:58:21.790
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.support.browser.html 4 0 2025-06-06 00:58:21.791
+!MESSAGE Problem with frameLoaded method
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at com.silabs.ss.support.browser.api.html.jxbrowser.JxBrowserService.lambda$19(JxBrowserService.java:259)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.silabs.ss.tool.installer.useraccounts.ui 1 0 2025-06-06 00:58:22.751
+!MESSAGE OAuthJxBrowserFactory frameLoaded isFrameLoaded: true
+
+!ENTRY com.silabs.ss.support.browser.html 4 0 2025-06-06 00:58:22.753
+!MESSAGE Problem with frameLoaded method
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4918)
+	at org.eclipse.swt.SWT.error(SWT.java:4833)
+	at org.eclipse.swt.SWT.error(SWT.java:4804)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:447)
+	at org.eclipse.swt.widgets.Widget.getDisplay(Widget.java:569)
+	at com.silabs.ss.support.browser.api.html.jxbrowser.JxBrowserService.lambda$19(JxBrowserService.java:259)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+!ENTRY com.silabs.ss.platform.rcp.core 4 0 2025-06-06 00:58:35.156
+!MESSAGE Demo information file is empty at C:\SiliconLabs\SimplicityStudio\v5_2\configuration\org.eclipse.osgi\401\0\.cp\demos\demos.xml
+!SESSION 2025-06-06 01:02:49.048 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.tool.launcher.analytics.ui 4 0 2025-06-06 01:02:52.584
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.analytics.ui [92]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.1.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.analytics.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.local.ui 4 0 2025-06-06 01:02:52.589
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.local.ui [93]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.local.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.salesforce.ui 4 0 2025-06-06 01:02:52.590
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.salesforce.ui [94]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.salesforce.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.ui 4 0 2025-06-06 01:02:52.591
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.ui [95]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.product 4 0 2025-06-06 01:02:52.592
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.product [96]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.product"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.ui 4 0 2025-06-06 01:02:52.593
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.ui [97]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2025-06-06 01:03:07.051
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2025-06-06 01:03:38.428
+!MESSAGE Jetty listening on: http://127.0.0.1:54473/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2025-06-06 01:03:39.618
+!MESSAGE ContentServer started at: 127.0.0.1, 54473
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2025-06-06 01:03:39.777
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2025-06-06 01:03:44.394
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2025-06-06 01:03:45.984
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@1e30575c (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/data-sheets/siwx917-ncp-datasheet.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2025-06-06 01:04:17.833
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@170100fa (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/data-sheets/siwx917-ncp-datasheet.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2025-06-06 01:04:26.562
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2025-06-06 01:04:32.004
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2025-06-06 01:04:34.860
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2025-06-06 01:05:10.580
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2025-06-06 01:05:10.626
+!MESSAGE Problem getting package resources: changelog
+!SESSION 2025-06-06 01:13:35.591 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=17.0.3
+java.vendor=Amazon.com Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.silabs.ss.tool.launcher.analytics.ui 4 0 2025-06-06 01:13:37.694
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.analytics.ui [92]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="1.1.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.analytics.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.local.ui 4 0 2025-06-06 01:13:37.699
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.local.ui [93]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.local.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.salesforce.ui 4 0 2025-06-06 01:13:37.700
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.salesforce.ui [94]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.salesforce.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.bugreport.ui 4 0 2025-06-06 01:13:37.701
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.bugreport.ui [95]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.bugreport.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.product 4 0 2025-06-06 01:13:37.702
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.product [96]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.product"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.tool.launcher.ui 4 0 2025-06-06 01:13:37.703
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: com.silabs.ss.tool.launcher.ui [97]
+  Another singleton bundle selected: osgi.identity; type="osgi.bundle"; version:Version="5.2.0.202504211359-1120"; osgi.identity="com.silabs.ss.tool.launcher.ui"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1847)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1840)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1781)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1745)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1667)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2025-06-06 01:13:39.059
+!MESSAGE Logging bundle not found: com.silabs.ss.logger, logging not initialized.
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2025-06-06 01:13:41.463
+!MESSAGE Jetty listening on: http://127.0.0.1:60443/
+
+!ENTRY com.silabs.ss.platform.jetty.server 1 0 2025-06-06 01:13:42.460
+!MESSAGE ContentServer started at: 127.0.0.1, 60443
+
+!ENTRY com.silabs.ss.platform.rcp.core 1 0 2025-06-06 01:13:42.616
+!MESSAGE com.silabs.ss.tool.launcher.product found! Writing main studio shared file
+
+!ENTRY com.silabs.ss.platform.descriptor.core 2 0 2025-06-06 01:13:46.369
+!MESSAGE re-registering property: com.silabs.ss.platform.api.descriptor.core.model.impl.MPropertyImpl@d6a929b (id: universalConfig.compSelProjInstanceId, name: compSelProjInstanceId, label: null, description: specific id for this instance of a project) (propertyScope: ) (id: universalConfig.compSelProjInstanceId, type: String, defaultValueLiteral: null)
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2025-06-06 01:13:47.061
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@60db6396 (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/data-sheets/siwx917-ncp-datasheet.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.platform.rcp.core 2 0 2025-06-06 01:14:14.999
+!MESSAGE Invalid discovery key: null
+
+!ENTRY com.silabs.ss.platform.content.core 4 0 2025-06-06 01:14:20.268
+!MESSAGE Asset Loading Errors:
+Asset com.silabs.ss.platform.internal.content.core.asset.model.impl.AssetImpl@55f6d03e (version: null, changelog: null, path: /aem/www.silabs.com/documents/public/data-sheets/siwx917-ncp-datasheet.pdf, diskSizeKB: 0.0, downloadSizeKB: 0.0, directory: false, category: null, label: null, description: null, priority: 0, keywords: null) is missing required properties.  Ignoring...
+
+
+!ENTRY com.silabs.ss.tool.installer.core 1 0 2025-06-06 01:14:23.312
+!MESSAGE isInternalNetwork: false
+
+!ENTRY com.silabs.ss.platform.apack.core 1 0 2025-06-06 01:14:30.626
+!MESSAGE AdapterPack USB adapter pack has setupcheck function type 
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2025-06-06 01:15:01.570
+!MESSAGE Problem getting package resources: changelog
+
+!ENTRY com.silabs.ss.tool.installer.core 2 0 2025-06-06 01:15:01.606
+!MESSAGE Problem getting package resources: changelog

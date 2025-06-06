@@ -6,6 +6,7 @@
 #include "sl_bt_stack_init.h"
 #include "sl_component_catalog.h"
 #include "sl_bt_in_place_ota_dfu.h"
+#include "sl_gatt_service_aio.h"
 #include "sl_gatt_service_device_information.h"
 #if !defined(SL_CATALOG_KERNEL_PRESENT)
 /**
@@ -57,6 +58,7 @@ SL_WEAK void sl_bt_on_event(sl_bt_msg_t* evt)
 void sl_bt_process_event(sl_bt_msg_t *evt)
 {
   sl_bt_in_place_ota_dfu_on_event(evt);
+  sl_gatt_service_aio_on_event(evt);
   sl_gatt_service_device_information_on_event(evt);
   sl_bt_on_event(evt);
 }
